@@ -168,6 +168,32 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.top-section {
+  width: 100%;
+  height: 90px;
+  border-bottom: 2px dashed lightgray;
+  background: white;
+}
+.top-section .nav-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-section .nav-content .fun-bus {
+  margin-left: 210px;
+}
+.top-section .nav-content .navigation {
+  width: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 210px;
+}
+.top-section .nav-content .navigation a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +204,12 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .welcome-section h2 {
+  margin-top: 20px;
+}
+.home .welcome-section p {
+  border-bottom: 2px dashed lightgray;
 }
 .home .content-section {
   margin: 30px 0;
