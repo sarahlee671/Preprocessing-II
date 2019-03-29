@@ -6,29 +6,43 @@
     height: 90px;
     border-bottom: 2px dashed lightgray;
     background: white;
+    @media @mobile {
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+
+    
     .nav-content {
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        .fun-bus {
-            margin-left: 210px;
+        @media @mobile {
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 10px;
         }
-
-    
+        }
         .navigation {
             width: 350px;
             display: flex;
-            justify-content: space-evenly;
-            margin-right: 210px;
+            justify-content: space-between;
+            @media @mobile {
+                justify-content: space-evenly;
+                width: 100%;
+                margin: 0 auto;
+            }
             a {
                 font-size: 2rem;
                 text-decoration: none;
                 color: black;
+            
             }
         }
 
     }
 
 
-}
+
